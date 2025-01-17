@@ -1,4 +1,2 @@
-osixia/openldap:1.4.0
-osixia/phpldapadmin:latest
-
+quay.io/minio/minio:latest
 
