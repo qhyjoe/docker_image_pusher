@@ -1,4 +1,4 @@
 
 --platform=linux/amd64 minio/mc:latest
 --platform=linux/arm64 minio/mc:latest
---platform=linux/arm64 minio/operator:v6.0.4
+--platform=linux/arm64/v8 minio/operator:v6.0.4
