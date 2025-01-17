@@ -1,2 +1,2 @@
-minio/mc:latest
+minio/operator:v6.0.4
 
