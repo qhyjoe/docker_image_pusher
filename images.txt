@@ -1,2 +1,2 @@
 
---platform=linux/amd64 minio/operator:v6.0.4
+--platform=linux/amd64 minio/mc:latest
