@@ -1,2 +1,2 @@
 minio/operator:v6.0.4
---platform=linux/amd64 minio/minio:latest
+--platform=linux/amd64 quay.io/minio/minio:latest
