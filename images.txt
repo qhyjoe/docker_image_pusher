@@ -1,2 +1,3 @@
 --platform=linux/amd64 vllm/vllm-openai:latest
 --platform=linux/arm64 vllm/vllm-openai:latest
+
