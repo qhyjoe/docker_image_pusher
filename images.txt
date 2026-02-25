@@ -1,6 +1,6 @@
 #nvcr.io/nvidia/k8s-device-plugin:v0.17.1
 #vllm/vllm-openai:gptoss
-vllm/vllm-openai:v0.16.0
+vllm/vllm-openai:v0.15.1
 #openclaw/openclaw:latest
 #ubuntu:22.04
 #--platform=linux/amd64 nvidia/cuda:11.0-base
