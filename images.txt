@@ -1,6 +1,6 @@
 #nvcr.io/nvidia/k8s-device-plugin:v0.17.1
 #vllm/vllm-openai:gptoss
-vllm/vllm-openai:nightly
+vllm/vllm-openai:v0.17.0
 #lmsysorg/sglang:v0.5.9
 #openclaw/openclaw:latest
 #ubuntu:22.04
