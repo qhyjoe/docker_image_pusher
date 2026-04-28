@@ -3,7 +3,6 @@
 vllm/vllm-openai:v0.20.0
 #alpine/openclaw:2026.3.11
 #lmsysorg/sglang:v0.5.9
-#openclaw/openclaw:latest
 #ubuntu:22.04
 #--platform=linux/amd64 nvidia/cuda:11.0-base
 #nvidia/cuda:12.9.0-base-ubuntu22.04
