@@ -1,6 +1,6 @@
 #nvcr.io/nvidia/k8s-device-plugin:v0.18.2
 #vllm/vllm-openai:gptoss
-vllm/vllm-openai:v0.20.1
+vllm/vllm-openai:v0.20.2
 #ghcr.io/matrixhub-ai/matrixhub:5ac74f2-dirty
 #alpine/openclaw:2026.3.11
 lmsysorg/sglang:v0.5.11
