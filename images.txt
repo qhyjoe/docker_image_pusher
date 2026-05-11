@@ -1,12 +1,12 @@
 #nvcr.io/nvidia/k8s-device-plugin:v0.18.2
 #vllm/vllm-openai:gptoss
-#vllm/vllm-openai:v0.20.0
-ghcr.io/matrixhub-ai/matrixhub:5ac74f2-dirty
+vllm/vllm-openai:v0.20.
+#ghcr.io/matrixhub-ai/matrixhub:5ac74f2-dirty
 #alpine/openclaw:2026.3.11
 #lmsysorg/sglang:v0.5.9
 #ubuntu:22.04
 #--platform=linux/amd64 nvidia/cuda:11.0-base
 #nvidia/cuda:12.9.0-base-ubuntu22.04
-#--platform=linux/arm64 docker.io/nginx:stable
+#--platform=linux/arm64 #docker.io/nginx:stable
 #--platform=linux/amd64 python:3.10-slim
 #--platform=linux/arm64 python:3.10-slim
