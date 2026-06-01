@@ -1,6 +1,6 @@
 #nvcr.io/nvidia/k8s-device-plugin:v0.18.2
 #vllm/vllm-openai:gptoss
-#vllm/vllm-openai:v0.21.0
+vllm/vllm-openai:v0.22.0
 #alpine/openclaw:2026.3.11
 #lmsysorg/sglang:v0.5.12
 #ubuntu:22.04
@@ -9,4 +9,4 @@
 #--platform=linux/arm64 #docker.io/nginx:stable
 #--platform=linux/amd64 python:3.10-slim
 #--platform=linux/arm64 python:3.10-slim
-quay.io/oauth2-proxy/oauth2-proxy:v7.15.2
+#quay.io/oauth2-proxy/oauth2-proxy:v7.15.2
