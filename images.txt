@@ -1,8 +1,6 @@
 #nvcr.io/nvidia/k8s-device-plugin:v0.18.2
 #vllm/vllm-openai:gptoss
 #vllm/vllm-openai:v0.26.0
-#--platform=linux/arm64 quay.m.daocloud.io/ascend/vllm-ascend:v0.11.0
---platform=linux/arm64 docker.io/openebs/lvm-driver:1.9.1
 #alpine/openclaw:2026.3.11
 #lmsysorg/sglang:v0.5.12
 #ubuntu:22.04
@@ -10,5 +8,13 @@
 #nvidia/cuda:12.9.0-base-ubuntu22.04
 #--platform=linux/arm64 #docker.io/nginx:stable
 #--platform=linux/amd64 python:3.10-slim
-#--platform=linux/arm64 python:3.10-slim
-#ghcr.io/berriai/litellm:v1.85.4
+--platform=linux/arm64 registry.k8s.io/sig-storage/csi-resizer:v1.8.0
+--platform=linux/arm64 registry.k8s.io/sig-storage/csi-snapshotter:v6.2.2
+--platform=linux/arm64 registry.k8s.io/sig-storage/snapshot-controller:v6.2.2
+--platform=linux/arm64 registry.k8s.io/sig-storage/csi-provisioner:v3.5.0
+--platform=linux/arm64 registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.8.0
+--platform=linux/amd64 registry.k8s.io/sig-storage/csi-resizer:v1.8.0
+--platform=linux/amd64 registry.k8s.io/sig-storage/csi-snapshotter:v6.2.2
+--platform=linux/amd64 registry.k8s.io/sig-storage/snapshot-controller:v6.2.2
+--platform=linux/amd64 registry.k8s.io/sig-storage/csi-provisioner:v3.5.0
+--platform=linux/amd64 registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.8.0
