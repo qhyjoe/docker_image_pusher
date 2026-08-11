@@ -8,4 +8,5 @@
 #nvidia/cuda:12.9.0-base-ubuntu22.04
 #--platform=linux/arm64 #docker.io/nginx:stable
 #--platform=linux/amd64 python:3.10-slim
-lucifer1004/dsv4-flash-sm120:20260604
+#lucifer1004/dsv4-flash-sm120:20260604
+nianshenlovelily/vllm-ds4-sm89:latest
