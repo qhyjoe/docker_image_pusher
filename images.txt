@@ -8,13 +8,4 @@
 #nvidia/cuda:12.9.0-base-ubuntu22.04
 #--platform=linux/arm64 #docker.io/nginx:stable
 #--platform=linux/amd64 python:3.10-slim
---platform=linux/arm64 registry.k8s.io/sig-storage/csi-resizer:v1.8.0
---platform=linux/arm64 registry.k8s.io/sig-storage/csi-snapshotter:v6.2.2
---platform=linux/arm64 registry.k8s.io/sig-storage/snapshot-controller:v6.2.2
---platform=linux/arm64 registry.k8s.io/sig-storage/csi-provisioner:v3.5.0
---platform=linux/arm64 registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.8.0
---platform=linux/amd64 registry.k8s.io/sig-storage/csi-resizer:v1.8.0
---platform=linux/amd64 registry.k8s.io/sig-storage/csi-snapshotter:v6.2.2
---platform=linux/amd64 registry.k8s.io/sig-storage/snapshot-controller:v6.2.2
---platform=linux/amd64 registry.k8s.io/sig-storage/csi-provisioner:v3.5.0
---platform=linux/amd64 registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.8.0
+lucifer1004/dsv4-flash-sm120:20260604
