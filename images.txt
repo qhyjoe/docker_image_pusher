@@ -7,6 +7,4 @@
 #--platform=linux/amd64 nvidia/cuda:11.0-base
 #nvidia/cuda:12.9.0-base-ubuntu22.04
 #--platform=linux/arm64 #docker.io/nginx:stable
-#--platform=linux/amd64 python:3.10-slim
-#lucifer1004/dsv4-flash-sm120:20260604
-garenleeasa/vllm-deepseek-v4-sm89:v0.23.1rc1.dev904-g8e321cc4f
+nvidia/cuda:13.3.1-devel-ubuntu22.04
