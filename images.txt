@@ -9,4 +9,4 @@
 #--platform=linux/arm64 #docker.io/nginx:stable
 #--platform=linux/amd64 python:3.10-slim
 #lucifer1004/dsv4-flash-sm120:20260604
-nianshenlovelily/vllm-ds4-sm89:latest
+garenleeasa/vllm-deepseek-v4-sm89:v0.23.1rc1.dev904-g8e321cc4f
