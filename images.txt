@@ -1,10 +1,10 @@
 #nvcr.io/nvidia/k8s-device-plugin:v0.18.2
 #vllm/vllm-openai:gptoss
-vllm/vllm-openai:v0.27.1
+#vllm/vllm-openai:v0.27.1
 #alpine/openclaw:2026.3.11
 #lmsysorg/sglang:v0.5.12
 #ubuntu:22.04
 #--platform=linux/amd64 nvidia/cuda:11.0-base
 #nvidia/cuda:12.9.0-base-ubuntu22.04
 #--platform=linux/arm64 #docker.io/nginx:stable
-nvidia/cuda:13.3.1-devel-ubuntu24.04
+#nvidia/cuda:13.3.1-devel-ubuntu24.04
