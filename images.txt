@@ -4,7 +4,7 @@
 #alpine/openclaw:2026.3.11
 #lmsysorg/sglang:v0.5.12
 #ubuntu:24.04
-arm64v8/debian:bookworm-slim
+--platform=linux/arm64 arm64v8/debian:bookworm-slim
 #nvidia/cuda:12.9.0-base-ubuntu22.04
 #--platform=linux/arm64 clickhouse/binary-builder:9c1160836d5f38931174_arm
 #nvidia/cuda:13.0.3-devel-ubuntu22.04
