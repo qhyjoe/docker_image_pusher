@@ -8,5 +8,5 @@ vllm/vllm-openai:v0.34.0
 #nvidia/cuda:12.9.0-base-ubuntu22.04
 #--platform=linux/arm64 clickhouse/binary-builder:9c1160836d5f38931174_arm
 #nvidia/cuda:13.0.3-devel-ubuntu22.04
---platform linux/amd64 cobra1978/keepalived:2.4.3
---platform linux/arm64 cobra1978/keepalived:2.4.3
+--platform linux/amd64 osixia/keepalived:2.4.3
+--platform linux/arm64 osixia/keepalived:2.4.3
