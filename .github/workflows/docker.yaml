@@ -41,7 +41,16 @@ jobs:
 
     - name: Restart docker
       run: sudo service docker restart
-
+    - name: Check Docker storage
+      run: |
+        echo "========== Filesystem =========="
+        df -hT / /var/lib/docker /var/lib/containerd
+    
+        echo "========== Inodes =========="
+        df -i / /var/lib/docker /var/lib/containerd
+    
+        echo "========== Docker =========="
+        docker info | grep -E 'Storage Driver|Docker Root Dir|containerd'
     - name: Free up disk space complete
       run: |
         echo "Free up disk space complete"
